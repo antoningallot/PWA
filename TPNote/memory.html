@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Memory</title>
+    <meta charset="UTF-8" />
+    <style>
+      #id_table td {
+        padding: 0;
+        margin:0;
+        border : none;
+        width : 4em;
+        height: 4em;
+        vertical-align: middle;
+        text-align:center;
+        background : black;
+      }
+      #id_table td > img {
+        border: none;
+        margin: 0;
+        padding: 0;
+        width : 3.5em;
+        height: 3.5em;
+        background : white;
+      }
+      #id_victory {
+        background : white;
+        position : absolute;
+        z-index: 2;
+        font-size: 30pt;
+        font-weight: bold;
+        text-align:center;
+        display : none;
+      }
+    </style>
+    <script type="text/javascript" src="memory.js" ></script>
+  </head>
+  <body>
+    <div id="id_victory">Victory !</div>
+    <table id="id_table">
+      <tr><td id="id_0_0"></td><td id="id_0_1"></td><td id="id_0_2"></td><td id="id_0_3"></td><td id="id_0_4"></td></tr>
+      <tr><td id="id_1_0"></td><td id="id_1_1"></td><td id="id_1_2"></td><td id="id_1_3"></td><td id="id_1_4"></td></tr>
+      <tr><td id="id_2_0"></td><td id="id_2_1"></td><td id="id_2_2"></td><td id="id_2_3"></td><td id="id_2_4"></td></tr>
+      <tr><td id="id_3_0"></td><td id="id_3_1"></td><td id="id_3_2"></td><td id="id_3_3"></td><td id="id_3_4"></td></tr>
+    </table>
+    <button id="id_flip">Flip !</button> <br/>
+    <button id="id_reset">Reset</button>
+  </body>
+</html>

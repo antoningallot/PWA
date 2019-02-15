@@ -1,0 +1,6 @@
+Etape 1 : utilisateur entre sa chaine de caractères s
+Etape 2 : faire requete http searchImage?query=s, on obtient des noms de fichiers f
+
+Etape 3 : pour chaque f on fait une requete http getURL?file=f
+Etape 4 : on obtient l'url de l'image et on l'affiche
+
